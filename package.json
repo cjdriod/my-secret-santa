@@ -1,0 +1,19 @@
+{
+  "name": "random_matching_application",
+  "version": "1.0.0",
+  "description": "A application that helps you to have a speed matching with your friends",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "Speed Matching"
+  ],
+  "author": "Lim Chun Jie",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
