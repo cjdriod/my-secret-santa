@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
   console.log('随机礼物交换 / 神秘天使 系统')
   console.time("matching"); 
   // TODO: Insert Player names here
-  let playerList = ['林俊杰','盛源峰', '廖伟杰', '陈咏誉', '王薇嫣', '罗晓萍', '李婷婷', '郑钰桢', '施嘉雯','杨玮盛', '洪晨恩']
+  let playerList = ['林俊杰','盛源峰', '廖伟杰', '陈咏誉', '王薇嫣', '罗小萍', '李葶亭', '郑钰桢', '施嘉雯','杨玮盛', '洪晨恩']
   playerList = shufferArray(playerList) // Remove it if you dont want make is shuffer
   let participantList = [...playerList]
 
